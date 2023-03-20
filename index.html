@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <section>
+            <div class="fieldsetOne">
+                <form action="" onsubmit="return false">
+                    <h2>how many rounds?</h2>
+                    <fieldset>
+                        <div id="roundBottonsValue">
+                            <input type="radio" name="kreis" id="buttonFive" value="5">
+                            <label for="">5</label>
+                            <input type="radio" name="kreis" id="buttonTen" value="10">
+                            <label for="">10</label>
+                            <input type="radio" name="kreis" id="buttonFifteen" value="15">
+                            <label for="">15</label>
+                            <input type="radio" name="kreis" id="buttonTwenty" value="20">
+                            <label for="">20</label>
+                        </div>
+                        <div class="secondBox">
+                            <p id="roundsTotal"></p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="fieldsetTwo">
+                <fieldset>
+                    <p>USER</p>
+                    <p id="resultPoints"></p>
+                    <p>COMP</p>
+                </fieldset>
+            </div>
+            <h2 id="endGameText">Let's play</h2>
+            <p></p>
+            <div class="fieldsetThree">
+                <input type="button" value="✊" id="rock" onclick="letsPlay('rock')">
+                <input type="button" value="✋" id="paper" onclick="letsPlay('paper')">
+                <input type="button" value="✌️" id="scissors" onclick="letsPlay('scissors')">
+            </div>
+            <p>MAKE YOUR MOVE.</p>
+            <a href="./index.html">restart</a>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    width: 40%;
+    font-family: fantasy;
+    margin: 1vh auto;
+}
+
+header {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 2vh 0;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+main section {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.fieldsetOne {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.fieldsetOne form fieldset {
+    padding: 5vh 30px 4vh 30px;
+}
+
+.fieldsetTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.fieldsetTwo fieldset {
+    padding: 2vh 18px;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.fieldsetTwo fieldset p {
+    padding: 5px 5px 0 5px;
+}
+
+.fieldsetTwo fieldset p:nth-of-type(1),
+.fieldsetTwo fieldset p:nth-of-type(3) {
+    background-color: palevioletred;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.fieldsetThree {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.fieldsetThree input {
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+main section p {
+    text-align: center;
+
+}
+
+main section a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+}
